@@ -1,19 +1,19 @@
-package ExceptionHandling_Ex6;
+package whileloop;
+//Program to display numbers from 1 to 5
 
 class Main {
   public static void main(String[] args) {
-	try {
-      // code that generates exception
-	  int divideByZero = 5 / 0;
-	}
-	
-	catch (ArithmeticException e) {
-	  System.out.println("ArithmeticException => "+ e.getMessage());
-	}
-	
-	finally {
-	  System.out.println("This is the finally block");
-	}
-  }
 
+	 // declare variables
+	 int i = 1, n = 5;
+
+	  // while loop from 1 to 5
+	  while(i <= n) {
+	    System.out.println(i);
+	    i++;
+	  }
+  }
 }
+	
+
+
